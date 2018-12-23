@@ -1,66 +1,16 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>HelloWorld</title>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap-theme.css">
-    <link rel="stylesheet" href="https://text.wang64.cn/typing/css/typing.css">
-    <!-- Icons --><link rel="shortcut icon" href="https://wang64.cn/static/favicon.ico">
-    <style>
-		body {
-			background: #282828;
-		}
-        .row {
-            margin-top: 12px;
-        }
-
-        .keyword {
-            color: #3ffc19;
-        }
-
-        .string {
-            color: #f2ea0e;
-        }
-
-        .info {
-            color: #ff4242;
-        }
-
-        .func {
-            color: #2d61e2;
-        }
-
-        #source, #output-wrap {
-            height: 160px;
-            background: #282828;
-            color: #fff;
-            padding: 20px;
-            font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-            font-size: 18px;
-            line-height: 26px;
-        }
-
-        @media screen and (max-width: 650px) {
-            #source, #output-wrap {
-                font-size: 16px;
-            }
-        }
-        @media screen and (max-width: 550px) {
-            #source, #output-wrap {
-                font-size: 14px;
-            }
-        }
-        @media screen and (max-width: 430px) {
-            #source, #output-wrap {
-                font-size: 12px;
-            }
-        }
-    </style>
-    <script src="https://text.wang64.cn/typing/js/typing.js"></script>
-    <script>
+	<meta name="theme-color" content="#FA7298">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Me</title>
+	<link rel='stylesheet' id='sydney-style-css' href='css/index.css' type='text/css' media='all' />
+	<!--[if lte IE 9]>
+		<link rel='stylesheet' id='sydney-ie9-css'  href='css/ie9.css' type='text/css' media='all' />
+	<![endif]-->
+	<!-- Icons --><link rel="shortcut icon" href="https://wang64.cn/static/favicon.ico">
+	<script>
 		var _hmt = _hmt || [];
 		(function() {
 		  var hm = document.createElement("script");
@@ -70,45 +20,75 @@
 		})();
 	</script>
 </head>
-<!-- 源码 https://github.com/coffeedeveloper/typing.js -->
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12" style="display: none;">
-                <div id="source">
-                    <span class="keyword">javac HelloWorld.java</span><br>> 
-                    <span class="keyword">java HelloWorld</span><br>> 
-                    <span class="info">Hello World</span><br>> 
-                </div>
-            </div>
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div id="output-wrap">
-                    HelloWorld.java<br>
-                    ------------------------------------------<br>
-                    <span class="func">public class </span><span class="string">HelloWorld </span>{<br>
-                    <span class="func">&nbsp;&nbsp;public static </span>void <span class="info">main</span>(String[] <span class="string">args</span>) {<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="info">System.out.println</span>("<span class="string">Hello World</span>");<br>
-                    &nbsp;&nbsp;}<br>
-                    }<br>
-                    ------------------------------------------<br>> 
-                    <span id="output"></span>
-                    <span class="typing-cursor-white">|</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        var typing = new Typing({
-            source: document.getElementById('source'),
-            output: document.getElementById('output'),
-            delay: 50
-        });
-        typing.start();
-        setTimeout(function(){ 
-            window.location.href = "https://me.wang64.cn/about";
-        }, 7000);
-    </script>
-    <!-- 页面点击小红心 -->
-    <script type="text/javascript" src="https://wang926454.gitee.io/reader/JS/love.js"></script>
+
+ <!-- 借鉴 https://zankyo.cc -->
+
+<body class="home blog">
+	<div id="page" class="hfeed site">
+		<div class="sydney-hero-area">
+			<div id="slideshow" class="header-slider" data-speed="4000" data-mobileslider="responsive">
+				<div class="slides-container">
+					
+					<div class="slide-item" style="background-image:url('https://wang926454.gitee.io/reader/Image/201811/normal/01005.png');">
+						<img class="mobile-slide preserve" src="https://wang926454.gitee.io/reader/Image/201811/normal/01005.png" />
+						<div class="slide-inner">
+							<div class="contain animated fadeInRightBig text-slider">
+								<h2 class="maintitle">Hi，这里是随心的</h2>
+								<p class="subtitle">辣鸡站子</p>
+							</div>
+							<a href="https://wang64.cn/go?url=https://cv.wang64.cn" target="_blank" class="roll-button button-slider">别急</a>
+						</div>
+					</div>
+					<div class="slide-item" style="background-image:url('https://wang926454.gitee.io/reader/Image/201811/normal/01020.png');">
+						<img class="mobile-slide preserve" src="https://wang926454.gitee.io/reader/Image/201811/normal/01020.png" />
+						<div class="slide-inner">
+							<div class="contain animated fadeInRightBig text-slider">
+								<h2 class="maintitle">姿势水平十分低下</h2>
+								<p class="subtitle">日常废话太多，不指望有人来看</p>
+							</div>
+							<a href="https://wang64.cn/go?url=https://cv.wang64.cn" target="_blank" class="roll-button button-slider">还没说完</a>
+						</div>
+					</div>
+					<div class="slide-item" style="background-image:url('https://wang926454.gitee.io/reader/Image/201811/normal/05015.png');">
+						<img class="mobile-slide preserve" src="https://wang926454.gitee.io/reader/Image/201811/normal/05015.png" />
+						<div class="slide-inner">
+							<div class="contain animated fadeInRightBig text-slider">
+								<h2 class="maintitle">这个站子没什么卵用</h2>
+								<p class="subtitle">白瞎我一个月好多钱</p>
+							</div>
+							<a href="https://wang64.cn/go?url=https://cv.wang64.cn" target="_blank" class="roll-button button-slider">再等一会</a>
+						</div>
+					</div>
+					<div class="slide-item" style="background-image:url('https://wang926454.gitee.io/reader/Image/201811/normal/04040.png');">
+						<img class="mobile-slide preserve" src="https://wang926454.gitee.io/reader/Image/201811/normal/04040.png" />
+						<div class="slide-inner">
+							<div class="contain animated fadeInRightBig text-slider">
+								<h2 class="maintitle">那么，既然你已经来了</h2>
+								<p class="subtitle">希望你能看到有用的东西</p>
+							</div>
+							<a href="https://wang64.cn/go?url=https://cv.wang64.cn" target="_blank" class="roll-button button-slider">最后一次</a>
+						</div>
+					</div>
+					<div class="slide-item" style="background-image:url('https://wang926454.gitee.io/reader/Image/201811/normal/01025.png');">
+						<img class="mobile-slide preserve" src="https://wang926454.gitee.io/reader/Image/201811/normal/01025.png" />
+						<div class="slide-inner">
+							<div class="contain animated fadeInRightBig text-slider">
+								<h2 class="maintitle">你不觉得刚才那些图</h2>
+								<p class="subtitle">都是孤身一人吗？</p>
+							</div>
+							<a href="https://wang64.cn/go?url=https://cv.wang64.cn" target="_blank" class="roll-button button-slider">这次是真最后了</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script type='text/javascript' src='js/slide.js'></script>
+	<script type='text/javascript' src='js/main.js'></script>
+	<script type="text/javascript" src="https://article.wang64.cn/js/src/love.js"></script>
 </body>
+
 </html>
